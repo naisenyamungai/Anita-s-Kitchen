@@ -85,11 +85,21 @@
   line-height: 25px;
 }
 
+.mealTimes p:hover{
+    color:black;
+}
+
+
 
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
    
+}
+
+.breakfast:hover, .lunch:hover, .dinner:hover{
+    color:black;
+    opacity:0.5;
 }
 
 .breakfast{
@@ -126,28 +136,27 @@
     
 }
 
+.happyHour{
+    background-color:white
 
-.mealTimes p:hover{
+}
+.happyHour p{
     color:black;
-    
+}
+.partyTime:hover{
+    opacity:0.5;
 }
 
-#happyHour{
-    background-color:#F15B29;
-
-}
-
-
-#partyTime{
+.partyTime{
     background-color:#F15B29;
    
 }
 
-#happyHour{
+.happyHour{
     padding:20px;
 }
 
-#partyTime p{
+.partyTime p{
     padding:20px;  
 }
 
