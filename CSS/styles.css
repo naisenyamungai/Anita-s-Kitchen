@@ -223,7 +223,27 @@
     margin-bottom:80px;
     margin-top:30px;
 }
-
+.sliderBorder{
+    height:400px;
+    padding:100px;
+}
+.sliderHeader{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color:grey;
+    color:black;   
+}
+.sliderHeader h3{
+    text-align:center;
+}
+.sliderHeader h3:hover{
+    color:#F15B29;   
+}
+.imagesSlider{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
 .review{
     border-color:whitesmoke;
     box-shadow:0px 0px 3px 3px  grey;
@@ -311,29 +331,4 @@ hr{
     padding-top:40px;
 }
 
-.carousel {
-    margin-bottom: 0;
-	padding: 0 40px 30px 40px;
-}
-/* Reposition the controls slightly */
-.carousel-control {
-	left: -12px;
-}
-.carousel-control.right {
-	right: -12px;
-}
-/* Changes the position of the indicators */
-.carousel-indicators {
-	right: 50%;
-	top: auto;
-	bottom: 0px;
-	margin-right: -19px;
-}
-/* Changes the colour of the indicators */
-.carousel-indicators li {
-	background: #c0c0c0;
-}
-.carousel-indicators .active {
-background: #333333;
-}
 
