@@ -137,6 +137,7 @@
 
 }
 
+
 #partyTime{
     background-color:#F15B29;
    
@@ -324,6 +325,13 @@ hr{
     color: #FFFFFF;
     padding:0px;
    
+}
+
+#verticallLine{
+    border-left:2px solid grey;
+    height:200px;
+    position:absolute;
+    left:60%;
 }
 
 #socialContent{
