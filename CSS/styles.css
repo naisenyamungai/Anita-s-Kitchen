@@ -106,6 +106,7 @@
     background-image:url(../IMAGES/lunch.jpg);
     background-repeat: no-repeat;
     padding:80px;
+    font-style: italic;
   
 }
 
@@ -114,6 +115,7 @@
     background-image:url(../IMAGES/dinner.jpg);
     background-repeat: no-repeat;
     padding:80px;
+    font-style: italic;
  
 }
 
