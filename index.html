@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+    <div class="restaurant">
+      <div id="hamburgerMenu">
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="#">Contacts</a>
+            <a href="#">Events</a>
+            <a href="#">Menu</a>
+          </div>
+        </div>
+        <span id="hamIcon" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      </div>    
+      <div id="restaurantLogo">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <img src="IMAGES/logoBig.png" alt="logo">
+            <br>
+            <br>
+            <br>
+          </div>
+        </div>
+        <div id="restaurantSlogan">
+            <p>We Provide The Best Food</p>
+            <p>At The <span id="rightPrice">Right Price</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="mealTimes">
+        <div class="grid">
+            <div id="happyHour">
+              <p>Happy Hour</p>
+            </div>
+            <div class="breakfast">
+              <p>Breakfast</p>
+            </div>
+            <div class="lunch">
+              <p>Lunch</p>
+            </div>
+            <div class="dinner">
+              <p>Dinner</p>
+            </div>
+            <div id="partyTime">
+                <p>Party Time</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contentFoodDrinks">
+      <div class="fastfoodImage">
+        <div id="desertImages">
+            <div><img src="IMAGES/fastFood1.jpg"></div>
+            <div><img src="IMAGES/fastFood2.jpg"></div>
+        </div>
+      </div>
+      <div class="fastfoodContent">
+        <h1>Fast Food</h1>
+        <h3>You'll love our delicious Food</h3>
+        <p>Lorem ipsum dolor sit amet consectetur 
+          adipiscing elit, sed do eiusmod temport 
+          ut labore et dolore magna aliqua. Leo a 
+          sollicitudin tempor id eu. Commodo quis 
+          massa tincidunt nunc pulvinar sapien. Sit
+          donec enim diam. Accumsan sit amet nulla 
+          tempus iaculis. Elit pellentesque habitant
+          tristique senectus et netus.
+        </p>
+      </div>
+     
+      <div class="drinksContent">
+        <h1>Drinks</h1>
+        <h3>We also produce delicious drinks</h3>
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipiscing elit,
+            ut labore et dolore magna aliqua. Leo a 
+            sollicitudin tempor id eu.
+            Commodo quis 
+            massa tincidunt nunc pulvinar sapien. Sit 
+            donec enim diam. Accumsan sit amet nulla 
+            tempus iaculis. Elit pellentesque habitant 
+            tristique senectus et netus.
+        </p>
+      </div>
+      <div class="drinksImage">
+        <div id="cocktails">
+            <div><img src="IMAGES/drink1.jpg"></div>
+            <div><img src="IMAGES/drink2.jpg"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sliderfastFood"></div>
+    </div>
+
+    <div class="review">
+      <div class="row justify-content-center">
+        
+          <div class="col-md-7">
+            <h5>Our Happy Customers</h5>
+            <p><span id="name"><strong>George Richard</strong></span></p>
+            <p>Great food! Menu is awesome, there foods are not only great but</p>
+            <p>also in the right price. I'll highly recommend them :)</p>
+          </div>
+          <div class="verticalLine">
+            <hr>
+          </div>
+          
+          <div class="col-md-5">
+            <h5>About Menu</h5>
+            <p>We are menu a little team of 7 members.</p>
+            <p>Commodo quis massa tincidunt nunc sa</p>
+            <p>massa tincidunt nunc pulvinar sapien of</p>
+          </div>
+        
+      </div>
+    </div>
+    
+
+    <div class="subscription">
+      <p>Get our daily food items delivered to your email</p>
+        <div class="emailSubscription">
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+              
+                <form NAME = "action " METHOD ="GET">
+                  <input id="email" type = "email" name = "email" placeholder = "Your email">
+            </div>
+
+            <div class="col-md-2">
+              <div id="subscribe">
+                <input type="button" class="button" value="Subscribe">
+              </div>
+            </div>
+            <div class="col-md-2"></div>   
+          </div>
+        </div>
+    </div>
+
+    <div class="social">
+      <div class="row justify-content-center">
+        <div id="socialContent">
+          <div class="col-md-4">
+            <img src="../Friday/IMAGES/logo_white.png" alt="logo">
+          </div>
+          <div class="col-md-4">
+            <p>MENU</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div id="socialTag">
+          <div class="col-md-12">
+            <p>That's What We Are</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+          <div id="icons">
+            <div class="col-md-3">
+              <img src="../Friday/IMAGES/facebook.png" alt="facebook">      
+            </div>
+            <div class="col-md-3">
+              <img src="../Friday/IMAGES/twitter.png" alt="twitter">     
+            </div>
+            <div class="col-md-3">
+              <img src="../Friday/IMAGES/pinterest.png" alt="pininterest">  
+            </div>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+          <div id="year">
+            <div class="col-md-12">
+              <p>2016 Menu Restaurant</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
