@@ -1,0 +1,310 @@
+.body{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+       
+}
+
+.restaurant{
+    height:600px;
+    width:100%;
+    background-image:url(../IMAGES/landing.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(241,91,41);
+    background-color: rgba(241,91,41, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+}
+  
+#hamIcon{
+    color:white;
+    margin-bottom:0px;
+    margin-left:40px;
+    width: 100px;
+    height: 100px;
+}
+
+
+#hamburgerMenu{
+    padding-top: 60px;
+    padding-left: 40px;
+
+}
+
+#restaurantLogo{
+    padding:60px;
+}
+
+#restaurantSlogan p{
+  font-size:30px;
+  color:white;
+  text-align: center;
+  line-height: 25px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+
+.breakfast{
+    grid-row: span 2 / auto;
+    background-image: url(../IMAGES/breakfast.jpg);
+    background-repeat: no-repeat;
+    padding:80px;
+    
+}
+
+.lunch{
+    grid-row: span 2 / auto;
+    background-image:url(../IMAGES/lunch.jpg);
+    background-repeat: no-repeat;
+    padding:80px;
+  
+}
+
+.dinner{
+    grid-row: span 2 / auto;
+    background-image:url(../IMAGES/dinner.jpg);
+    background-repeat: no-repeat;
+    padding:80px;
+ 
+}
+
+.mealTimes p{
+    color:#FFFFFF;
+    font-size: 28px; 
+    text-align: center;
+    
+}
+
+
+.mealTimes p:hover{
+    color:black;
+    
+}
+
+#happyHour{
+    background-color:#F15B29;
+
+}
+
+#partyTime{
+    background-color:#F15B29;
+   
+}
+
+#happyHour{
+    padding:20px;
+}
+
+#partyTime p{
+    padding:20px;  
+}
+
+.contentFoodDrinks{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    color:black;
+    padding:60px;
+    margin-top:30px;
+    
+    
+}
+
+.fastfoodImage{
+    grid-row: span 2 / auto;
+    margin-left:50px;
+    
+}
+
+#desertImages{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width:522px;
+    border:15px solid white;
+    border-color:whitesmoke;
+    box-shadow:0px 0px 3px 3px grey;
+}
+
+.fastfoodContent{
+    grid-row: span 2 / auto;
+    width:450px;  
+    text-align: left;
+    margin-left:60px;
+    
+}
+
+
+.drinksContent{
+    grid-row: span 2 / auto;
+    width:450px;
+    text-align: right;
+    word-wrap:break-word;
+    margin-left:60px;
+    margin-top:60px;
+      
+}
+
+
+.drinksImage{
+    grid-row: span 2 / auto;
+    width:570px;
+    margin-right:50px;
+    margin-top:60px;
+    
+       
+}
+
+#cocktails{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border:15px solid white;
+    border-color:whitesmoke;
+    box-shadow:0px 0px 3px 3px  grey;
+    margin-right:50px;
+    
+}
+
+
+.sliderfastFood{
+    background-image:url(../IMAGES/foodsBg.jpg);
+    background-repeat: no-repeat;
+    height:600px;
+    margin-bottom:80px;
+    margin-top:30px;
+}
+
+.review{
+    border-color:whitesmoke;
+    box-shadow:0px 0px 3px 3px  grey;
+    margin-bottom: 80px;
+    text-align:center;
+    margin-left:10%;
+    width:1000px;
+    height:250px;
+    padding:20px;
+}
+
+.review h5{
+    color:#F15B29;
+    font-weight: bold;
+}
+
+hr{
+    transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    color:black;
+    
+}
+
+.subscription{
+    background-image:url(../IMAGES/subscribe.jpg);
+    background-repeat: no-repeat;
+    height:300px;
+    padding:90px;
+       
+}
+
+#email{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left:90px;
+    width:400px;
+    height:35px;
+}
+
+.button{
+    width:100px;
+    background-color: #F15B29;
+    color:white;
+    height:35px;
+    margin-left:60px;
+}
+
+.subscription p{
+    text-align:center;
+    font-size:26px;
+    color:white;
+}
+
+#rightPrice{
+    font-weight: bold;
+}
+
+.social{
+    background-color: #F15B29;
+    color: #FFFFFF;
+    padding:0px;
+   
+}
+
+#socialContent{
+    padding-top:50px;
+}
+
+#socialContent p{
+    font-size: 30px; 
+}
+
+#socialTag p{
+    font-size:20px;
+    padding-top:20px;
+
+}
+#icons{
+    padding-top:30px; 
+    margin-left:40px;
+}
+
+#year p{
+    padding-top:40px;
+}
+
