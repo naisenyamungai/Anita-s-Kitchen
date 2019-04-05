@@ -1,14 +1,17 @@
 ## Project Name
 ANITA'S KITCHEN
 
-![](https://github.com/naisenyamungai/Anita-s-Kitchen/blob/master/IMAGES/core.jpg)
+## Author
+            NAISENYA MUNGAI
+            Student - Full Stack Developer(Java & Android)
+
 
 ## Project Description
 This is a program  that creates a Restaurant Website that share's information with the user on the menu and allows users to subscribe to newsletters 
 
-## Author
-NAISENYA MUNGAI
-Student - Full Stack Developer(Java & Android)
+## Project Overview
+
+![](https://github.com/naisenyamungai/Anita-s-Kitchen/blob/master/IMAGES/core.jpg)
 
 ## Technologies Used
 BootStrap, JQuery, HTML, CSS and JavaScript was used for creating the application.
