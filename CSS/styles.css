@@ -143,6 +143,10 @@
 .happyHour p{
     color:black;
 }
+
+.happyHour:hover{
+    opacity:0.9;
+}
 .partyTime:hover{
     opacity:0.5;
 }
