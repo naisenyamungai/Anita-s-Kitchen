@@ -231,12 +231,17 @@
     height:400px; 
 
 }
+
 .sliderHeader{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-color:grey;
     color:black;   
 }
+#fastFoodSlider{
+    background-color:white;
+}
+
 .sliderHeader h3{
     text-align:center;
 }
@@ -247,7 +252,7 @@
     padding-top:50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
     margin-left:50px;
 }
 
