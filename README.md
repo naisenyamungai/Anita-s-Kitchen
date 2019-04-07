@@ -7,7 +7,7 @@
 
 
 ## Project Description
-This is a program  that creates a Restaurant Website that share's information with the user on the menu and allows users to subscribe to newsletters 
+> This is a program  that creates a Restaurant Website that share's information with the user on the menu and allows users to subscribe to newsletters 
 
 ## Project Overview
 
@@ -22,7 +22,7 @@ This is a program  that creates a Restaurant Website that share's information wi
 >- JQuery
 
 ## Known Bugs
-None
+> None
 
 ## SetUp Instructions
 > Internet Connection is required for the following instructions to be executed
@@ -36,11 +36,11 @@ None
 >- Alternatively you can clone the project onto your local machine to have a sneak peak at the code used.
 
 ## Support and contact details
-naisenyamungai@gmail.com
+> naisenyamungai@gmail.com
 
 
-## To access this webpage open below "Edit Here" link
-https://naisenyamungai.github.io/Anita-s-Kitchen/
+## To access this webpage open below link
+> https://naisenyamungai.github.io/Anita-s-Kitchen/
 
 
 ## [License](https://naisenyamungai.github.io/naisenyaPortfolio/LICENSE.md)
