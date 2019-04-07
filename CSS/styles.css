@@ -137,15 +137,20 @@
 }
 
 .happyHour{
-    background-color:white
+    background-color:white;
 
 }
 .happyHour p{
     color:black;
 }
 
+.happyHour p:hover{
+    color:white;
+}
+
 .happyHour:hover{
-    opacity:0.9;
+    background-color: rgb(241,91,41);
+
 }
 .partyTime:hover{
     opacity:0.5;
@@ -404,5 +409,3 @@ hr{
 #year p{
     padding-top:40px;
 }
-
-
