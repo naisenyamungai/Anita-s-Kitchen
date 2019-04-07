@@ -169,6 +169,71 @@
     padding:20px;  
 }
 
+.clickable1 {
+    cursor: pointer;
+  }
+
+  .clickable1:hover {
+    text-decoration: underline;
+  }
+
+  .clickable2 {
+    cursor: pointer;
+  }
+
+  .clickable2:hover {
+    text-decoration: underline;
+  }
+
+  .modal1 {
+      display:none;
+      position: absolute;
+      background:#F15B29;
+      color:white;
+      padding:10px;
+      width:310px;
+      height:200px;
+      top:680px;
+      margin-left:0px;
+      /*left:calc(50% -100px);
+      z-index: 1;*/
+  }
+ .modal1 p{
+     font-size:14px;
+     text-align: left; 
+  
+ }
+
+.modal1 ul li{
+    color:black;
+    font-weight:bold;
+}
+
+.modal2{
+    display:none;
+    position:absolute;
+    background:#F15B29; 
+    color:white;
+    width:320px;
+    height:200px;
+    top:780px;
+    left:calc(40% -100px);
+    /*z-index: 1;*/
+}
+.modal2 p{
+   font-size:14px;
+   text-align: left;
+}
+
+
+
+.modal2 ul li{
+  color:black;
+  font-weight:bold;
+}
+
+
+
 .contentFoodDrinks{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
